@@ -1,0 +1,32 @@
+{
+  "name": "generic-min-max",
+  "version": "1.0.0",
+  "description": "This node.js module exports a generic min-max algorithm, alongside some implementations\n\nThis package comes with full typescript support!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "lodash": "^4.17.21"
+  },
+  "author": "Roy Hadad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royhadad/generic-min-max"
+  },
+  "keywords": [
+    "generic-min-max",
+    "minmax",
+    "minimax",
+    "min-max",
+    "ai",
+    "chess",
+    "chess-engine",
+    "chess-computer",
+    "tictactoe-engine",
+    "algorythm"
+  ]
+}
