@@ -8,8 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.168",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168"
   },
   "author": "Roy Hadad",
   "license": "MIT",
