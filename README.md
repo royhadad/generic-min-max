@@ -9,7 +9,7 @@ This package comes with full typescript support!
 
 ```javascript
 import minMax from "generic-min-max";
-import { TicTacToe } from "generic-min-max/implementations";
+import {TicTacToe} from "generic-min-max/implementations";
 
 const ticTacToe = new TicTacToe();
 const continuation = minMax(ticTacToe, 9);
