@@ -1,22 +1,22 @@
 import cloneDeep from 'lodash/cloneDeep';
 import {BoardGameState, Game} from "../types";
 
-enum Square {
+export enum Square {
     Empty = '-',
     X = 'X',
     O = 'O'
 }
 
-type Player = Square.X | Square.O;
+export type Player = Square.X | Square.O;
 
-type Row = [Square, Square, Square];
-type Board = [Row, Row, Row];
-type SquareLocation = [row: number, column: number];
+export type Row = [Square, Square, Square];
+export type Board = [Row, Row, Row];
+export type SquareLocation = [row: number, column: number];
 
 const GET_EMPTY_ROW = (): Row => [Square.Empty, Square.Empty, Square.Empty];
 const GET_EMPTY_BOARD = (): Board => [[Square.X, Square.O, Square.Empty], GET_EMPTY_ROW(), GET_EMPTY_ROW()];
 
-interface TicTacToeState extends BoardGameState {
+export interface TicTacToeState extends BoardGameState {
     board: Board;
 }
 
@@ -99,4 +99,3 @@ function isPlayerWinning(state: TicTacToeState, player: Player): boolean {
 }
 
 export default TicTacToeGame;
-export {TicTacToeState};
