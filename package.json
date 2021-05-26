@@ -1,6 +1,6 @@
 {
   "name": "generic-min-max",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This node.js module exports a generic min-max algorithm, alongside some implementations\n\nThis package comes with full typescript support!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
