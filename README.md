@@ -8,8 +8,8 @@ This package comes with full typescript support!
 ## Usage example (ES6/Typescript):
 
 ```javascript
-import minMax from "./src/minMax";
-import TicTacToe from "./src/implementations/TicTacToe";
+import minMax from "generic-min-max";
+import { TicTacToe } from "generic-min-max/implementations";
 
 const ticTacToe = new TicTacToe();
 const continuation = minMax(ticTacToe, 9);
